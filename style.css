@@ -131,3 +131,19 @@ input:checked + .slider::before {
 .fab:hover {
   color: var(--text-color);
 }
+.project-container {
+  display: flex;
+}
+.image-container {
+  border: 1px solid var(--text-color-second);
+  border-radius: 10px;
+  box-shadow: #000000 0 5px 20px 1px;
+  padding: 10px 20px;
+  background: var(--background);
+  margin-right: 25px;
+  width: auto;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
